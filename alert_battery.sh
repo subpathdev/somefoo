@@ -4,5 +4,6 @@ bat=$(acpi | grep -o [A-Z][a-z]*argi[a-z]*)
 if [ "$bat" == 'Discharging' ]; then 
 		if [ "$status" -le 100 ]; then 
 				beep $(cat /home/subpath/.skript/bash/music)
+				ratpoison -c "echo battery is low"
 		fi
 fi
