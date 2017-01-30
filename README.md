@@ -14,6 +14,7 @@ My software
 Debian 9 with Ratpoison
 Alsamixer
 Wicd
+ftp-upload
 
 Hints
 =============
